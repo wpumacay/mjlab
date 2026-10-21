@@ -59,7 +59,7 @@
     <link rel="prev" title="Welcome to mjlab!" href="../index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Apr 08, 2026"/>
+    <meta name="docbuild:last-update" content="Oct 21, 2026"/>
   </head>
   
   
@@ -189,6 +189,7 @@
 <li class="toctree-l1"><a class="reference internal" href="architecture_overview.html">Architecture Overview</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="entity/index.html">Entity</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="entity/entity_data.html">Entity Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="entity/per_world_mesh.html">Heterogeneous Worlds</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1"><a class="reference internal" href="actuators.html">Actuators</a></li>
@@ -509,7 +510,8 @@ choose the one that best fits your use case.</p>
 <p class="admonition-title">Note</p>
 <p><strong>System Requirements</strong></p>
 <ul class="simple">
-<li><p><strong>Training</strong>: Linux + NVIDIA GPU (CUDA 12.4+ recommended)</p></li>
+<li><p><strong>Training</strong>: Linux + NVIDIA GPU (Turing or newer) with driver 580+
+(or driver 525+ with the <code class="docutils literal notranslate"><span class="pre">cu126</span></code> extra, which does not support Blackwell GPUs)</p></li>
 <li><p><strong>Evaluation</strong>: Linux, macOS, or Windows (WSL)</p></li>
 <li><p><strong>Python</strong>: 3.10 or higher</p></li>
 </ul>
@@ -809,7 +811,7 @@ By The mjlab Developers
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Apr 08, 2026.
+  Last updated on Oct 21, 2026.
   <br/>
 </p>
   </div>
